@@ -1,2 +1,4 @@
 # 2d-tomography
 This repository is a 2D travel-time tomography seismic using MATLAB which I build and my friend Rinta in order to complete my Final Projects. The forward modelling is resolved using Fast Marching Method (FMM) with finite difference approximation and the raytracing is resolved based on John Vidale paper, Finite difference calculation of travel times. This code can use two method in inversion part, Least Square and Pseudo-Inverse where the input data is only needed travel time and the location of station (in UTM, both easting and northing). You can also set some parameters which could affects the tomography result, such as the number of iteration, displaying forward modelling or inverse modelling to track your data, save your model or not and etc.
+
+If there is anything you want to ask, you can simply contact me radifantaufik09@gmail.com
